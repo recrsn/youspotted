@@ -12,11 +12,9 @@ This is a simple project to showcase your contact information in a QR code. Usef
 3. Deploy to a static hosting service (I use [Netlify](https://www.netlify.com/))
 4. Profit!
 
-## Built with
-1. React
-2. Vite & Vike
-3. TailwindCSS
 
 ## License
 
-BSD 2-Clause License
+BSD-2-Clause License.
+
+See [LICENSE](LICENSE) for more information.

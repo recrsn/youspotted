@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> head}}
+</head>
+
+<body class="flex flex-col">
+    {{> header}}
+    <main class="container max-w-sm mx-auto">
+        <section class="my-8 flex flex-col items-center">
+            <img class="p-2 rounded-full shadow-lg w-48 h-48" src="/assets/profile-picture.webp"
+                alt="{{firstName}} {{lastName}}" />
+            <h1 class="mt-4 text-2xl">{{firstName}} {{lastName}}</h1>
+            <div class="text-neutral-500 mt-2">
+                <p class="">🛠️ {{title}}</p>
+                <p class="">🏢 {{role}} @ {{company}}</p>
+            </div>
+        </section>
+        <section class="px-4 py-2 max-w-xs mx-auto">
+            <ul class="flex flex-col gap-2">
+                {{#links}}
+                <li>
+                    <a href="{{{url}}}"
+                        class="border border-primary-500 text-primary-500 fill-primary-500 px-4 py-2 flex flex-row gap-2 items-center hover:bg-primary-100">
+                        <img src="/assets/themed/{{name}}.svg" class="w-8 h-8" alt="{{label}}" />
+                        <span class="hover:text-">{{label}}</span>
+                    </a>
+                </li>
+                {{/links}}
+            </ul>
+        </section>
+    </main>
+    {{> footer}}
+</body>
+
+</html>

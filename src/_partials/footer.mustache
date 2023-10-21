@@ -1,0 +1,16 @@
+<footer class="py-8">
+    <div class="container max-w-sm mx-auto flex flex-col px-2 gap-1">
+        <p class="mx-auto text-xs text-neutral-400">
+            © 2023 {{firstName}} {{lastName}}
+        </p>
+        <p class="mx-auto text-xs text-neutral-400">
+            <a href="https://github.com/recrsn/youspotted">
+                <GitHub class="w-4 h-4 fill-neutral-400 text-neutral-400" />
+            </a>
+        </p>
+    </div>
+</footer>
+<script async defer src="/index.js"></script>
+{{#production}}
+<script src="register-sw.js"></script>
+{{/production}}

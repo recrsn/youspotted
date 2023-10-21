@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You spotted Amitosh!</title>
+    <link rel="stylesheet" href="/index.css"/>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8937NR279Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8937NR279Q');
+    </script>
+</head>
+
+<body class="flex flex-col">
+    <div class="progress fixed top-0 left-0 h-1 w-full">
+        <div class="progress-bar h-1 bg-primary-700 w-100 transition-transform origin-left scale-x-0"></div>
+    </div>
+    <header>
+        <div class="sm:container mx-auto flex flex-row px-4 py-2">
+            <nav class="ml-auto">
+                <ul class="flex flex-row py-4 gap-4">
+                    <li>
+                        <a class="text-primary-700 hover:text-primary-500" href="/" data-swap="main">
+                            <img src="/assets/themed/link-outline.svg" alt="Links" class="w-8 h-8" />
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-primary-700 hover:text-primary-500" href="/qr/" data-swap="main">
+                            <img src="/assets/themed/qr-code-outline.svg" alt="QR Code" class="w-8 h-8" />
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container max-w-sm mx-auto">
+        <section class="my-8 flex flex-col items-center">
+            <h1 class="my-4 text-2xl">Hello 👋 This is Amitosh!</h1>
+
+            <img class="p-4 w-64 h-64" src="/assets/qr.png" alt="QR Code" />
+
+            <p class="mt-4 text-neutral-500">🔎 Scan to find me on the internet🌐</p>
+        </section>
+    </main>
+    <footer class="py-8">
+        <div class="container max-w-sm mx-auto flex flex-col px-2 gap-1">
+            <p class="mx-auto text-xs text-neutral-400">
+                © 2023 Amitosh Swain Mahapatra
+            </p>
+            <p class="mx-auto text-xs text-neutral-400">
+                <a href="https://github.com/recrsn/youspotted">
+                    <GitHub class="w-4 h-4 fill-neutral-400 text-neutral-400" />
+                </a>
+            </p>
+        </div>
+    </footer>
+    <script async defer src="/index.js"></script>
+    <script src="register-sw.js"></script>
+</body>
+
+</html>

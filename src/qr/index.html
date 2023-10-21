@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> head}}
+</head>
+
+<body class="flex flex-col">
+    {{> header}}
+    <main class="container max-w-sm mx-auto">
+        <section class="my-8 flex flex-col items-center">
+            <h1 class="my-4 text-2xl">Hello 👋 This is {{firstName}}!</h1>
+
+            <img class="p-4 w-64 h-64" src="/assets/qr.png" alt="QR Code" />
+
+            <p class="mt-4 text-neutral-500">🔎 Scan to find me on the internet🌐</p>
+        </section>
+    </main>
+    {{> footer}}
+</body>
+
+</html>
