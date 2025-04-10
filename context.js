@@ -3,7 +3,7 @@ module.exports = {
     lastName: 'Swain Mahapatra',
     title: 'Computer Whisperer',
     role: '<T> Engineer',
-    company: 'Toplyne',
+    company: 'CodeRabbit',
     location: 'Bangalore, India',
     email: 'amitosh@recrsn.com',
 
